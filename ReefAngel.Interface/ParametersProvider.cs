@@ -20,7 +20,7 @@ namespace ReefAngel.Interface
         {
             _parameterTransformer = parameterTransformer;
             _webClient = new WebClient();
-            _uri = new Uri("");
+            _uri = new Uri("http://reefangel.sbidny.com:2000/r99");
 
         }
 

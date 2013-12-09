@@ -117,4 +117,10 @@
     <BundleResource Include="Resources\second%402x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\ReefAngel.Interface\ReefAngel.Interface.csproj">
+      <Project>{12380660-154B-46FF-97F6-5F44141E34C6}</Project>
+      <Name>ReefAngel.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
