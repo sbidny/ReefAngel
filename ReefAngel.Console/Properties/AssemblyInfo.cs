@@ -6,9 +6,9 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyTitle ("ReefAngel.Console")]
 [assembly: AssemblyDescription ("")]
 [assembly: AssemblyConfiguration ("")]
-[assembly: AssemblyCompany ("")]
-[assembly: AssemblyProduct ("")]
-[assembly: AssemblyCopyright ("sbidny")]
+[assembly: AssemblyCompany ("Steven Bidny")]
+[assembly: AssemblyProduct ("Reef Angel")]
+[assembly: AssemblyCopyright ("")]
 [assembly: AssemblyTrademark ("")]
 [assembly: AssemblyCulture ("")]
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
