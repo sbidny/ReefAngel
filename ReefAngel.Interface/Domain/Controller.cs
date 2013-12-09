@@ -7,7 +7,7 @@ namespace ReefAngel.Interface
         public Uri Uri { get; private set; }
         public string Name { get; private set; }
 
-        public Controller()
+        public Controller(Uri uri, string name)
         {
         }
     }

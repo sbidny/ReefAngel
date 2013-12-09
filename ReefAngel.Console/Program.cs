@@ -8,10 +8,10 @@ namespace ReefAngel.Console
     {
         public static void Main(string[] args)
         {
-            var parameterTransformer = new ParametersTransformer();
-            var parametersProvider = new ParametersProvider(parameterTransformer);
-            var tmp = parametersProvider.Parameters;
-            System.Console.WriteLine(tmp.Temperature1);
+            var reefAngelClientFactory = new ReefAngelClientFactory();
+            var uri = new Uri("");
+            var reefAngelClient = reefAngelClientFactory.CreateReefAngelClient(uri, "test");
+            System.Console.WriteLine(reefAngelClient.ParametersProvider.Parameters.Temperature1);
         }
     }
 }
