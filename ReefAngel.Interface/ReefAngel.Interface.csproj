@@ -36,17 +36,18 @@
     <Compile Include="Domain\Controller.cs" />
     <Compile Include="Domain\Parameters.cs" />
     <Compile Include="Transfer\RA.cs" />
-    <Compile Include="ControllerProvider.cs" />
-    <Compile Include="ParametersProvider.cs" />
     <Compile Include="Transformer\ParametersTransformer.cs" />
     <Compile Include="Control\WaterChangeModeController.cs" />
     <Compile Include="CommandExecutor.cs" />
     <Compile Include="ReefAngelClient.cs" />
     <Compile Include="Control\FeedModeController.cs" />
+    <Compile Include="Provider\ControllerProvider.cs" />
+    <Compile Include="Provider\ParametersProvider.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Transformer\" />
     <Folder Include="Control\" />
+    <Folder Include="Provider\" />
   </ItemGroup>
 </Project>
