@@ -5,43 +5,46 @@ using MonoTouch.UIKit;
 
 namespace ReefAngel
 {
-	public partial class FirstViewController : UIViewController
-	{
-		static bool UserInterfaceIdiomIsPhone {
-			get { return UIDevice.CurrentDevice.UserInterfaceIdiom == UIUserInterfaceIdiom.Phone; }
-		}
+    public partial class FirstViewController : UIViewController
+    {
+        static bool UserInterfaceIdiomIsPhone
+        {
+            get { return UIDevice.CurrentDevice.UserInterfaceIdiom == UIUserInterfaceIdiom.Phone; }
+        }
 
-		public FirstViewController ()
-			: base (UserInterfaceIdiomIsPhone ? "FirstViewController_iPhone" : "FirstViewController_iPad", null)
-		{
-			this.Title = NSBundle.MainBundle.LocalizedString ("First", "First");
-			this.TabBarItem.Image = UIImage.FromBundle ("first");
-		}
+        public FirstViewController()
+			: base(UserInterfaceIdiomIsPhone ? "FirstViewController_iPhone" : "FirstViewController_iPad", null)
+        {
+            this.Title = NSBundle.MainBundle.LocalizedString("First", "First");
+            this.TabBarItem.Image = UIImage.FromBundle("first");
+        }
 
-		public override void DidReceiveMemoryWarning ()
-		{
-			// Releases the view if it doesn't have a superview.
-			base.DidReceiveMemoryWarning ();
+        public override void DidReceiveMemoryWarning()
+        {
+            // Releases the view if it doesn't have a superview.
+            base.DidReceiveMemoryWarning();
 			
-			// Release any cached data, images, etc that aren't in use.
-		}
+            // Release any cached data, images, etc that aren't in use.
+        }
 
-		public override void ViewDidLoad ()
-		{
-			base.ViewDidLoad ();
+        public override void ViewDidLoad()
+        {
+            base.ViewDidLoad();
 			
-			// Perform any additional setup after loading the view, typically from a nib.
-		}
+            // Perform any additional setup after loading the view, typically from a nib.
+        }
 
-		public override bool ShouldAutorotateToInterfaceOrientation (UIInterfaceOrientation toInterfaceOrientation)
-		{
-			// Return true for supported orientations
-			if (UIDevice.CurrentDevice.UserInterfaceIdiom == UIUserInterfaceIdiom.Phone) {
-				return (toInterfaceOrientation != UIInterfaceOrientation.PortraitUpsideDown);
-			} else {
-				return true;
-			}
-		}
-	}
+        public override bool ShouldAutorotateToInterfaceOrientation(UIInterfaceOrientation toInterfaceOrientation)
+        {
+            // Return true for supported orientations
+            if (UIDevice.CurrentDevice.UserInterfaceIdiom == UIUserInterfaceIdiom.Phone)
+            {
+                return (toInterfaceOrientation != UIInterfaceOrientation.PortraitUpsideDown);
+            }
+            else
+            {
+                return true;
+            }
+        }
+    }
 }
-

@@ -7,12 +7,11 @@ using MonoTouch.Foundation;
 
 namespace ReefAngel
 {
-	[Register ("SecondViewController")]
-	partial class SecondViewController
-	{
-		void ReleaseDesignerOutlets ()
-		{
-		}
-	}
+    [Register("SecondViewController")]
+    partial class SecondViewController
+    {
+        void ReleaseDesignerOutlets()
+        {
+        }
+    }
 }
-
