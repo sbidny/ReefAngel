@@ -1,4 +1,5 @@
 using System;
+using System.Net.Http;
 
 namespace ReefAngel.Interface
 {
@@ -18,6 +19,9 @@ namespace ReefAngel.Interface
 
         public string Execute(string command)
         {
+            var httpClient = new HttpClient();
+            httpClient.BaseAddress = _controllerProvider.Controller.Uri;
+            var response = httpClient.GetAsync(command).Result;
             return _controllerProvider.Controller.Uri + "/" + command;
         }
     }
