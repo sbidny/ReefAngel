@@ -18,7 +18,7 @@ namespace ReefAngel.Interface
 
         public void Run()
         {
-            _commandExecutor.Execute("/mf");
+            _commandExecutor.Execute("mf");
         }
     }
 }
