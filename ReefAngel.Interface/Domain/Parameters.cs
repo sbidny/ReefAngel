@@ -7,14 +7,14 @@ namespace ReefAngel.Interface
         public decimal Temperature2;
         public decimal Temperature3;
         public decimal pH;
-        public string R;
-        public string ROn;
-        public string ROff;
-        public string AtoLow;
-        public string AtoHigh;
+        public string RelayData;
+        public string RelayMaskOn;
+        public string RelayMaskOff;
+        public string AutoTopOffLow;
+        public string AutoTopOffHigh;
         public string Em;
-        public string Rem;
-        public string Pwma;
-        public string Pwmd;
+        public string RelayExpansionModules;
+        public string PwmActinic;
+        public string PwmDaylight;
     }
 }

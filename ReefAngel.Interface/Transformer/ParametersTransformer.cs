@@ -18,15 +18,15 @@ namespace ReefAngel.Interface.Transformer
             parameters.Temperature2 = Convert.ToDecimal(ra.T2) / 10;
             parameters.Temperature3 = Convert.ToDecimal(ra.T3) / 10;
             parameters.pH = Convert.ToDecimal(ra.PH) / 100;
-            parameters.R = ra.R;
-            parameters.ROn = ra.RON;
-            parameters.ROff = ra.ROFF;
-            parameters.AtoLow = ra.ATOLOW;
-            parameters.AtoHigh = ra.ATOHIGH;
+            parameters.RelayData = ra.R;
+            parameters.RelayMaskOn = ra.RON;
+            parameters.RelayMaskOff = ra.ROFF;
+            parameters.AutoTopOffLow = ra.ATOLOW;
+            parameters.AutoTopOffHigh = ra.ATOHIGH;
             parameters.Em = ra.EM;
-            parameters.Rem = ra.REM;
-            parameters.Pwma = ra.PWMA;
-            parameters.Pwmd = ra.PWMD;
+            parameters.RelayExpansionModules = ra.REM;
+            parameters.PwmActinic = ra.PWMA;
+            parameters.PwmDaylight = ra.PWMD;
 
             return parameters;
         }
