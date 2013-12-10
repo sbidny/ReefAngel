@@ -6,8 +6,8 @@ namespace ReefAngel.Interface.Transformer
     {
         Parameters Transform(RA ra);
     }
-    
-    public class ParametersTransformer : ITransformParameters
+
+    internal class ParametersTransformer : ITransformParameters
     {
         public Parameters Transform(RA ra)
         {

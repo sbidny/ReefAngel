@@ -11,7 +11,7 @@ namespace ReefAngel.Interface
         Parameters Parameters { get; }
     }
 
-    public class ParametersProvider : IProvideParameters
+    internal class ParametersProvider : IProvideParameters
     {
         private readonly ITransformParameters _parameterTransformer;
         private readonly IExecuteCommands _commandExecutor;

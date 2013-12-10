@@ -7,7 +7,7 @@ namespace ReefAngel.Interface
         Controller Controller { get; }
     }
 
-    public class ControllerProvider : IProvideController
+    internal class ControllerProvider : IProvideController
     {
         public Controller Controller { get; private set; }
 

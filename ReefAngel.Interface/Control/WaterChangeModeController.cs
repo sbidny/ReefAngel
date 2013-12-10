@@ -7,7 +7,7 @@ namespace ReefAngel.Interface
         void Run();
     }
 
-    public class WaterChangeModeController : IControlWaterChangeMode
+    internal class WaterChangeModeController : IControlWaterChangeMode
     {
         private readonly IExecuteCommands _commandExecutor;
 

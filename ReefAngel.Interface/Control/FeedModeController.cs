@@ -7,7 +7,7 @@ namespace ReefAngel.Interface
         void Run();
     }
 
-    public class FeedModeController : IControlFeedMode
+    internal class FeedModeController : IControlFeedMode
     {
         private readonly IExecuteCommands _commandExecutor;
 

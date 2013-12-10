@@ -7,7 +7,7 @@ namespace ReefAngel.Interface
         string Execute(string command);
     }
 
-    public class CommandExecutor : IExecuteCommands
+    internal class CommandExecutor : IExecuteCommands
     {
         private IProvideController _controllerProvider;
 

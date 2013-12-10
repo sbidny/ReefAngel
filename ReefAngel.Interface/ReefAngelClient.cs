@@ -24,7 +24,7 @@ namespace ReefAngel.Interface
         IProvideController ControllerProvider { get; }
     }
 
-    public class ReefAngelClient : IProvideReefAngelClient
+    internal class ReefAngelClient : IProvideReefAngelClient
     {
         public IControlWaterChangeMode WaterChangeModeController { get; private set; }
         public IControlFeedMode FeedModeController { get; private set; }
