@@ -9,6 +9,8 @@ namespace ReefAngel.Interface
 
         public Controller(Uri uri, string name)
         {
+            Uri = uri;
+            Name = name;
         }
     }
 }

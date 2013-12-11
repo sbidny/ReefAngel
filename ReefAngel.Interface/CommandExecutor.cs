@@ -22,7 +22,7 @@ namespace ReefAngel.Interface
             var httpClient = new HttpClient();
             httpClient.BaseAddress = _controllerProvider.Controller.Uri;
             var response = httpClient.GetAsync(command).Result;
-            return _controllerProvider.Controller.Uri + "/" + command;
+            return response.Content.ReadAsStringAsync().Result;
         }
     }
 }
