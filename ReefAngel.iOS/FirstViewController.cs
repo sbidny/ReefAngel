@@ -2,6 +2,7 @@ using System;
 using System.Drawing;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using ReefAngel.Interface;
 
 namespace ReefAngel
 {
@@ -45,6 +46,14 @@ namespace ReefAngel
             {
                 return true;
             }
+        }
+
+        partial void actnButtonClick(MonoTouch.UIKit.UIButton sender)
+        {
+            var reefAngelClientFactory = new ReefAngelClientFactory();
+            var uri = new Uri("http://reefangel.sbidny.com:2000/");
+            var reefAngelClient = reefAngelClientFactory.CreateReefAngelClient(uri, "test");
+            reefAngelClient.FeedModeController.Run();
         }
     }
 }

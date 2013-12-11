@@ -12,15 +12,11 @@ namespace ReefAngel
 	[Register ("FirstViewController")]
 	partial class FirstViewController
 	{
-		[Outlet]
-		MonoTouch.UIKit.UILabel lblTest { get; set; }
+		[Action ("actnButtonClick:")]
+		partial void actnButtonClick (MonoTouch.UIKit.UIButton sender);
 		
 		void ReleaseDesignerOutlets ()
 		{
-			if (lblTest != null) {
-				lblTest.Dispose ();
-				lblTest = null;
-			}
 		}
 	}
 }
