@@ -15,7 +15,7 @@ namespace ReefAngel
         public SecondViewController()
 			: base(UserInterfaceIdiomIsPhone ? "SecondViewController_iPhone" : "SecondViewController_iPad", null)
         {
-            this.Title = NSBundle.MainBundle.LocalizedString("Second", "Second");
+            this.Title = NSBundle.MainBundle.LocalizedString("Control", "Control");
             this.TabBarItem.Image = UIImage.FromBundle("second");
         }
 

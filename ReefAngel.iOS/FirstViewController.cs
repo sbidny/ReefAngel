@@ -16,7 +16,7 @@ namespace ReefAngel
         public FirstViewController()
 			: base(UserInterfaceIdiomIsPhone ? "FirstViewController_iPhone" : "FirstViewController_iPad", null)
         {
-            this.Title = NSBundle.MainBundle.LocalizedString("First", "First");
+            this.Title = NSBundle.MainBundle.LocalizedString("Status", "Status");
             this.TabBarItem.Image = UIImage.FromBundle("first");
         }
 
@@ -51,7 +51,7 @@ namespace ReefAngel
         partial void actnButtonClick(MonoTouch.UIKit.UIButton sender)
         {
             var reefAngelClientFactory = new ReefAngelClientFactory();
-            var uri = new Uri("http://reefangel.sbidny.com:2000/");
+            var uri = new Uri("");
             var reefAngelClient = reefAngelClientFactory.CreateReefAngelClient(uri, "test");
             reefAngelClient.FeedModeController.Run();
         }
