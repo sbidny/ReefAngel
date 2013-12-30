@@ -1,4 +1,4 @@
-namespace ReefAngel.Interface
+namespace ReefAngel.Interface.Transfer
 {
     public class RA
     {

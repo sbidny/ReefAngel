@@ -3,8 +3,10 @@ using System.Net;
 using System.Xml.Serialization;
 using System.IO;
 using ReefAngel.Interface.Transformer;
+using ReefAngel.Interface.Domain;
+using ReefAngel.Interface.Transfer;
 
-namespace ReefAngel.Interface
+namespace ReefAngel.Interface.Provider
 {
     public interface IProvideParameters
     {

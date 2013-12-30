@@ -1,6 +1,6 @@
-using System;
+using ReefAngel.Interface.Domain;
 
-namespace ReefAngel.Interface
+namespace ReefAngel.Interface.Provider
 {
     public interface IProvideController
     {

@@ -1,5 +1,8 @@
 using System;
 using ReefAngel.Interface.Transformer;
+using ReefAngel.Interface.Provider;
+using ReefAngel.Interface.Control;
+using ReefAngel.Interface.Domain;
 
 namespace ReefAngel.Interface
 {

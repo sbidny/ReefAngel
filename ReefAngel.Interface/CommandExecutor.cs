@@ -1,5 +1,6 @@
 using System;
 using System.Net.Http;
+using ReefAngel.Interface.Provider;
 
 namespace ReefAngel.Interface
 {

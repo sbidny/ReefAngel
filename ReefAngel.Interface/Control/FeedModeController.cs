@@ -1,6 +1,6 @@
 using System;
 
-namespace ReefAngel.Interface
+namespace ReefAngel.Interface.Control
 {
     public interface IControlFeedMode
     {

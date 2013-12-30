@@ -103,6 +103,8 @@
     <Compile Include="SecondViewController.designer.cs">
       <DependentUpon>SecondViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Configuration\ConfigurationProvider.cs" />
+    <Compile Include="Configuration\ConfigurationManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="FirstViewController_iPhone.xib" />
@@ -122,5 +124,12 @@
       <Project>{12380660-154B-46FF-97F6-5F44141E34C6}</Project>
       <Name>ReefAngel.Interface</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ReefAngel.Configuration\ReefAngel.Configuration.csproj">
+      <Project>{76C242B3-858A-44C4-A844-5C75535E7799}</Project>
+      <Name>ReefAngel.Configuration</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Configuration\" />
   </ItemGroup>
 </Project>

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReefAngel.iOS", "ReefAngel.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReefAngel.Interface", "ReefAngel.Interface\ReefAngel.Interface.csproj", "{12380660-154B-46FF-97F6-5F44141E34C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReefAngel.Configuration", "ReefAngel.Configuration\ReefAngel.Configuration.csproj", "{76C242B3-858A-44C4-A844-5C75535E7799}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -51,6 +53,22 @@ Global
 		{2D9C59AC-E31E-41B0-8932-D4A0AEA079C7}.Release|iPhone.Build.0 = Release|Any CPU
 		{2D9C59AC-E31E-41B0-8932-D4A0AEA079C7}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{2D9C59AC-E31E-41B0-8932-D4A0AEA079C7}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{76C242B3-858A-44C4-A844-5C75535E7799}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{76C242B3-858A-44C4-A844-5C75535E7799}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{76C242B3-858A-44C4-A844-5C75535E7799}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{76C242B3-858A-44C4-A844-5C75535E7799}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{76C242B3-858A-44C4-A844-5C75535E7799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C242B3-858A-44C4-A844-5C75535E7799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C242B3-858A-44C4-A844-5C75535E7799}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{76C242B3-858A-44C4-A844-5C75535E7799}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{76C242B3-858A-44C4-A844-5C75535E7799}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{76C242B3-858A-44C4-A844-5C75535E7799}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{76C242B3-858A-44C4-A844-5C75535E7799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C242B3-858A-44C4-A844-5C75535E7799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76C242B3-858A-44C4-A844-5C75535E7799}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{76C242B3-858A-44C4-A844-5C75535E7799}.Release|iPhone.Build.0 = Release|Any CPU
+		{76C242B3-858A-44C4-A844-5C75535E7799}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{76C242B3-858A-44C4-A844-5C75535E7799}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{78522B26-A353-4D6D-AAD0-6FDC5505C968}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
 		{78522B26-A353-4D6D-AAD0-6FDC5505C968}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
 		{78522B26-A353-4D6D-AAD0-6FDC5505C968}.AppStore|iPhone.ActiveCfg = AppStore|iPhone

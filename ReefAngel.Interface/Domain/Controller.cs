@@ -1,6 +1,6 @@
 using System;
 
-namespace ReefAngel.Interface
+namespace ReefAngel.Interface.Domain
 {
     public class Controller
     {

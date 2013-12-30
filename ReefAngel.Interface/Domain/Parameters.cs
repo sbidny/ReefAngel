@@ -1,4 +1,4 @@
-namespace ReefAngel.Interface
+namespace ReefAngel.Interface.Domain
 {
     public class Parameters
     {

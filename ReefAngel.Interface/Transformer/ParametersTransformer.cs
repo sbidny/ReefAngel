@@ -1,4 +1,6 @@
 using System;
+using ReefAngel.Interface.Domain;
+using ReefAngel.Interface.Transfer;
 
 namespace ReefAngel.Interface.Transformer
 {
